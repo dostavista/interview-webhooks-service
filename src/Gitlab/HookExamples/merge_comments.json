@@ -1,0 +1,283 @@
+[
+    {
+        "id": 12345,
+        "type": null,
+        "body": "mentioned in commit 529a3797f8b188c1014c678e86606eead99f1d4e",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/7/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-27T07:42:46.377Z",
+        "updated_at": "2021-09-27T07:42:46.379Z",
+        "system": true,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "resolvable": false,
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    },
+    {
+        "id": 12345,
+        "type": null,
+        "body": "resolved all threads",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/7/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-27T07:40:15.057Z",
+        "updated_at": "2021-09-27T07:40:15.061Z",
+        "system": true,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "resolvable": false,
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    },
+    {
+        "id": 12345,
+        "type": "DiffNote",
+        "body": "Лишний комментарий",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/7/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-27T07:39:47.762Z",
+        "updated_at": "2021-09-27T07:39:47.762Z",
+        "system": false,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "commit_id": null,
+        "position": {
+            "base_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "start_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "head_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "old_path": "src/library/borzo/MetricsRequest.php",
+            "new_path": "src/library/borzo/MetricsRequest.php",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 148,
+            "line_range": null
+        },
+        "resolvable": true,
+        "resolved": true,
+        "resolved_by": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/7/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "resolved_at": "2021-09-27T07:40:15.043Z",
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    },
+    {
+        "id": 12345,
+        "type": null,
+        "body": "added 1 commit\n\n\u003cul\u003e\u003cli\u003e58fef3e0 - TASK-4595 Убрал лишний комментарий\u003c/li\u003e\u003c/ul\u003e\n\n[Compare with previous version](/borzo/spy-front/-/merge_requests/97/diffs?diff_id=23930\u0026start_sha=529a3797f8b188c1014c678e86606eead99f1d4e)",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/7/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-27T07:39:42.158Z",
+        "updated_at": "2021-09-27T07:39:42.159Z",
+        "system": true,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "resolvable": false,
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    },
+    {
+        "id": 12345,
+        "type": null,
+        "body": "added 1 commit\n\n\u003cul\u003e\u003cli\u003ed9919d63 - TASK-4595 починил баг со шкалой времени чарта\u003c/li\u003e\u003c/ul\u003e\n\n[Compare with previous version](/borzo/spy-front/-/merge_requests/97/diffs?diff_id=23902\u0026start_sha=529a3797f8b188c1014c678e86606eead99f1d4e)",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/194/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-24T19:07:12.257Z",
+        "updated_at": "2021-09-24T19:07:12.258Z",
+        "system": true,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "resolvable": false,
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    },
+    {
+        "id": 12345,
+        "type": "DiffNote",
+        "body": "changed this line in [version 5 of the diff](/borzo/spy-front/-/merge_requests/97/diffs?diff_id=23902\u0026start_sha=529a3797f8b188c1014c678e86606eead99f1d4e#529a3797f8b188c1014c678e86606eead99f1d4e_148_141)",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/194/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-24T19:07:11.966Z",
+        "updated_at": "2021-09-24T19:07:11.966Z",
+        "system": true,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "commit_id": null,
+        "position": {
+            "base_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "start_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "head_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "old_path": "src/library/borzo/MetricsRequest.php",
+            "new_path": "src/library/borzo/MetricsRequest.php",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 148,
+            "line_range": {
+                "start": {
+                    "line_code": "529a3797f8b188c1014c678e86606eead99f1d4e_137_148",
+                    "type": "new",
+                    "old_line": null,
+                    "new_line": 148
+                },
+                "end": {
+                    "line_code": "529a3797f8b188c1014c678e86606eead99f1d4e_137_148",
+                    "type": "new",
+                    "old_line": null,
+                    "new_line": 148
+                }
+            }
+        },
+        "resolvable": false,
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    },
+    {
+        "id": 12345,
+        "type": "DiffNote",
+        "body": "changed this line in [version 5 of the diff](/borzo/spy-front/-/merge_requests/97/diffs?diff_id=23902\u0026start_sha=529a3797f8b188c1014c678e86606eead99f1d4e#529a3797f8b188c1014c678e86606eead99f1d4e_128_124)",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/194/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-24T19:07:11.869Z",
+        "updated_at": "2021-09-24T19:07:11.869Z",
+        "system": true,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "commit_id": null,
+        "position": {
+            "base_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "start_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "head_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "old_path": "src/library/borzo/MetricsRequest.php",
+            "new_path": "src/library/borzo/MetricsRequest.php",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 128,
+            "line_range": {
+                "start": {
+                    "line_code": "529a3797f8b188c1014c678e86606eead99f1d4e_121_128",
+                    "type": "new",
+                    "old_line": null,
+                    "new_line": 128
+                },
+                "end": {
+                    "line_code": "529a3797f8b188c1014c678e86606eead99f1d4e_121_128",
+                    "type": "new",
+                    "old_line": null,
+                    "new_line": 128
+                }
+            }
+        },
+        "resolvable": false,
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    },
+    {
+        "id": 12345,
+        "type": "DiffNote",
+        "body": "changed this line in [version 5 of the diff](/borzo/spy-front/-/merge_requests/97/diffs?diff_id=23902\u0026start_sha=529a3797f8b188c1014c678e86606eead99f1d4e#529a3797f8b188c1014c678e86606eead99f1d4e_247_247)",
+        "attachment": null,
+        "author": {
+            "id": 12345,
+            "name": "Dmitry Dubovcev",
+            "username": "dubovcev",
+            "state": "active",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/194/avatar.png",
+            "web_url": "https://gitlab.borzo.com/dubovcev"
+        },
+        "created_at": "2021-09-24T19:07:11.744Z",
+        "updated_at": "2021-09-24T19:07:11.744Z",
+        "system": true,
+        "noteable_id": 10156,
+        "noteable_type": "MergeRequest",
+        "commit_id": null,
+        "position": {
+            "base_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "start_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "head_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "old_path": "src/library/borzo/Metrics/Chart.php",
+            "new_path": "src/library/borzo/Metrics/Chart.php",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 247,
+            "line_range": {
+                "start": {
+                    "line_code": "529a3797f8b188c1014c678e86606eead99f1d4e_242_247",
+                    "type": "new",
+                    "old_line": null,
+                    "new_line": 247
+                },
+                "end": {
+                    "line_code": "529a3797f8b188c1014c678e86606eead99f1d4e_242_247",
+                    "type": "new",
+                    "old_line": null,
+                    "new_line": 247
+                }
+            }
+        },
+        "resolvable": false,
+        "confidential": false,
+        "noteable_iid": 97,
+        "commands_changes": {}
+    }
+]

@@ -1,0 +1,64 @@
+{
+    "object_kind": "push",
+    "event_name": "push",
+    "before": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "after": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "ref": "refs/heads/dds_notask_metrics_for_the_metrics_god",
+    "checkout_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "message": null,
+    "user_id": 7,
+    "user_name": "Dmitry Dubovcev",
+    "user_username": "dubovcev",
+    "user_email": "",
+    "user_avatar": "https://gitlab.borzo.com/uploads/-/system/user/avatar/7/avatar.png",
+    "project_id": 14,
+    "project": {
+        "id": 12345,
+        "name": "server-tools",
+        "description": null,
+        "web_url": "https://gitlab.borzo.com/borzo/server-tools",
+        "avatar_url": null,
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "namespace": "borzo",
+        "visibility_level": 0,
+        "path_with_namespace": "borzo/server-tools",
+        "default_branch": "master",
+        "ci_config_path": "",
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "http_url": "https://gitlab.borzo.com/borzo/server-tools.git"
+    },
+    "commits": [
+        {
+            "id": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "message": "log-processor: Перефигачил имена и описание метрик\n",
+            "timestamp": "2021-02-11T15:30:01+03:00",
+            "url": "https://gitlab.borzo.com/borzo/server-tools/commit/529a3797f8b188c1014c678e86606eead99f1d4e",
+            "author": {
+                "name": "Dmitry Dubovcev",
+                "email": "dubovcev@borzo.com"
+            },
+            "added": [],
+            "modified": [
+                "docker/log-processor/src/main/kotlin/InternalLogWriter.kt",
+                "docker/log-processor/src/main/kotlin/Metrics.kt",
+                "docker/log-processor/src/main/kotlin/PrometheusMetrics.kt",
+                "docker/log-processor/src/main/kotlin/dispatcher/AnnotationSender.kt"
+            ],
+            "removed": []
+        }
+    ],
+    "total_commits_count": 1,
+    "push_options": {},
+    "repository": {
+        "name": "server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "description": null,
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "visibility_level": 0
+    }
+}

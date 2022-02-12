@@ -1,0 +1,63 @@
+{
+    "object_kind": "push",
+    "event_name": "push",
+    "before": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "after": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "ref": "refs/heads/alel_inf3719_move_mx_to_pogo",
+    "checkout_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "message": null,
+    "user_id": 150,
+    "user_name": "Dmitry Dubovcev",
+    "user_username": "alel",
+    "user_email": "",
+    "user_avatar": "https://secure.gravatar.com/avatar/34ddfefa2535ed7df3feff4089b21c2e?s=80\u0026d=identicon",
+    "project_id": 14,
+    "project": {
+        "id": 12345,
+        "name": "server-tools",
+        "description": null,
+        "web_url": "https://gitlab.borzo.com/borzo/server-tools",
+        "avatar_url": null,
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "namespace": "borzo",
+        "visibility_level": 0,
+        "path_with_namespace": "borzo/server-tools",
+        "default_branch": "master",
+        "ci_config_path": "",
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "http_url": "https://gitlab.borzo.com/borzo/server-tools.git"
+    },
+    "commits": [
+        {
+            "id": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "message": "TASK-3719 Add Mexico instances in TF\n",
+            "timestamp": "2021-02-11T13:49:21+03:00",
+            "url": "https://gitlab.borzo.com/borzo/server-tools/commit/529a3797f8b188c1014c678e86606eead99f1d4e",
+            "author": {
+                "name": "Alex Leyn",
+                "email": "alexleyn@easypay.co.id"
+            },
+            "added": [
+                "terraform/aws/mexico.tf"
+            ],
+            "modified": [
+                "terraform/aws/ohio.tf"
+            ],
+            "removed": []
+        }
+    ],
+    "total_commits_count": 1,
+    "push_options": {},
+    "repository": {
+        "name": "server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "description": null,
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "visibility_level": 0
+    }
+}

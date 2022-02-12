@@ -1,0 +1,5 @@
+User-Agent: Yandex
+Disallow: /
+
+User-agent: *
+Disallow: /

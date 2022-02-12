@@ -1,0 +1,150 @@
+{
+    "object_kind": "merge_request",
+    "event_type": "merge_request",
+    "user": {
+        "name": "Dmitry Dubovcev",
+        "username": "dm",
+        "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/94/avatar.png"
+    },
+    "project": {
+        "id": 12345,
+        "name": "server-tools",
+        "description": null,
+        "web_url": "https://gitlab.borzo.com/borzo/server-tools",
+        "avatar_url": null,
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "namespace": "borzo",
+        "visibility_level": 0,
+        "path_with_namespace": "borzo/server-tools",
+        "default_branch": "master",
+        "ci_config_path": "",
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "http_url": "https://gitlab.borzo.com/borzo/server-tools.git"
+    },
+    "object_attributes": {
+        "assignee_id": 94,
+        "author_id": 150,
+        "created_at": "2021-02-11 10:49:55 UTC",
+        "description": "",
+        "head_pipeline_id": null,
+        "id": 12345,
+        "iid": 972,
+        "last_edited_at": null,
+        "last_edited_by_id": null,
+        "merge_commit_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+        "merge_error": null,
+        "merge_params": {
+            "force_remove_source_branch": "0"
+        },
+        "merge_status": "can_be_merged",
+        "merge_user_id": null,
+        "merge_when_pipeline_succeeds": false,
+        "milestone_id": null,
+        "source_branch": "alel_inf3719_move_mx_to_pogo",
+        "source_project_id": 14,
+        "state_id": 3,
+        "target_branch": "master",
+        "target_project_id": 14,
+        "time_estimate": 0,
+        "title": "TASK-3719 Add Mexico instances in TF",
+        "updated_at": "2021-02-11 13:25:16 UTC",
+        "updated_by_id": null,
+        "url": "https://gitlab.borzo.com/borzo/server-tools/merge_requests/972",
+        "source": {
+            "id": 12345,
+            "name": "server-tools",
+            "description": null,
+            "web_url": "https://gitlab.borzo.com/borzo/server-tools",
+            "avatar_url": null,
+            "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+            "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+            "namespace": "borzo",
+            "visibility_level": 0,
+            "path_with_namespace": "borzo/server-tools",
+            "default_branch": "master",
+            "ci_config_path": "",
+            "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+            "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+            "ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+            "http_url": "https://gitlab.borzo.com/borzo/server-tools.git"
+        },
+        "target": {
+            "id": 12345,
+            "name": "server-tools",
+            "description": null,
+            "web_url": "https://gitlab.borzo.com/borzo/server-tools",
+            "avatar_url": null,
+            "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+            "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+            "namespace": "borzo",
+            "visibility_level": 0,
+            "path_with_namespace": "borzo/server-tools",
+            "default_branch": "master",
+            "ci_config_path": "",
+            "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+            "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+            "ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+            "http_url": "https://gitlab.borzo.com/borzo/server-tools.git"
+        },
+        "last_commit": {
+            "id": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "message": "TASK-3724 update applied TF\n",
+            "timestamp": "2021-02-11T16:23:52+03:00",
+            "url": "https://gitlab.borzo.com/borzo/server-tools/commit/529a3797f8b188c1014c678e86606eead99f1d4e",
+            "author": {
+                "name": "Alex Leyn",
+                "email": "alexleyn@easypay.co.id"
+            }
+        },
+        "work_in_progress": false,
+        "total_time_spent": 0,
+        "human_total_time_spent": null,
+        "human_time_estimate": null,
+        "assignee_ids": [
+            94
+        ],
+        "state": "merged",
+        "action": "merge"
+    },
+    "labels": [],
+    "changes": {
+        "state_id": {
+            "previous": 4,
+            "current": 3
+        },
+        "updated_at": {
+            "previous": "2021-02-11 13:25:15 UTC",
+            "current": "2021-02-11 13:25:16 UTC"
+        },
+        "assignees": {
+            "previous": [],
+            "current": [
+                {
+                    "name": "Dmitry Dubovcev",
+                    "username": "dm",
+                    "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/94/avatar.png"
+                }
+            ]
+        },
+        "total_time_spent": {
+            "previous": null,
+            "current": 0
+        }
+    },
+    "repository": {
+        "name": "server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "description": null,
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools"
+    },
+    "assignees": [
+        {
+            "name": "Dmitry Dubovcev",
+            "username": "dm",
+            "avatar_url": "https://gitlab.borzo.com/uploads/-/system/user/avatar/94/avatar.png"
+        }
+    ]
+}

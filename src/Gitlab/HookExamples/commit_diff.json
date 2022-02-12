@@ -1,0 +1,22 @@
+[
+    {
+        "old_path": "src/library/Borzo/Index/Views/Blocks/MainFilters.php",
+        "new_path": "src/library/Borzo/Index/Views/Blocks/MainFilters.php",
+        "a_mode": "100644",
+        "b_mode": "100644",
+        "new_file": false,
+        "renamed_file": false,
+        "deleted_file": false,
+        "diff": "@@ -5,7 +5,6 @@ namespace Borzo\\Index\\Views\\Blocks;\n use Borzo\\Enums;\n use Borzo\\Index\\IndexController;\n use Borzo\\MetricsRequest;\n-use Borzo\\ServerNamesData;\n \n class MainFilters {\n     public static function renderFullFilters(MetricsRequest $metricsRequest) {\n@@ -17,7 +16,7 @@ class MainFilters {\n     }\n \n     private static function renderDbServerDropdownLinks(MetricsRequest $metricsRequest) {\n-        $dbServers = ServerNamesData::getServerNamesForFilter($metricsRequest);\n+        $dbServers = $metricsRequest-\u003egetAvailableServerNamesForFilter();\n \n         $selectedKeys = $metricsRequest-\u003eoperationDbServer\n             ? [$metricsRequest-\u003eoperationDbServer]\n"
+    },
+    {
+        "old_path": "src/library/Borzo/Metrics/Chart.php",
+        "new_path": "src/library/Borzo/Metrics/Chart.php",
+        "a_mode": "100644",
+        "b_mode": "100644",
+        "new_file": false,
+        "renamed_file": false,
+        "deleted_file": false,
+        "diff": "@@ -3,7 +3,6 @@\n namespace Borzo\\Metrics;\n \n use F\\MetricsRequest;\n-use Borzo\\ServerNamesData;\n \n class Chart {\n     private ClickhouseMetricsRepository $metrics;\n@@ -244,10 +243,8 @@ class Chart {\n         // При этом они должны быть на графике.\n         // Иначе они не отобразятся при появлении свежих данных.\n         // Поэтому создаем их принудительно.\n-        ServerNamesData::getServerNamesForFilter($metricsRequest);\n-\n         foreach ($charts as $groupKey =\u003e $groups) {\n-            foreach (ServerNamesData::getActiveServerNames($metricsRequest) as $serverName) {\n+            foreach ($metricsRequest-\u003egetAvailableServerNames() as $serverName) {\n                 if (!isset($groups[$serverName])) {\n                     $charts[$groupKey][$serverName] = [];\n                 }\n"
+    }
+]

@@ -1,0 +1,82 @@
+{
+    "object_kind": "push",
+    "event_name": "push",
+    "before": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "after": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "ref": "refs/heads/master",
+    "checkout_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "message": null,
+    "user_id": 94,
+    "user_name": "Dmitry Dubovcev",
+    "user_username": "dm",
+    "user_email": "",
+    "user_avatar": "https://gitlab.borzo.com/uploads/-/system/user/avatar/94/avatar.png",
+    "project_id": 14,
+    "project": {
+        "id": 12345,
+        "name": "server-tools",
+        "description": null,
+        "web_url": "https://gitlab.borzo.com/borzo/server-tools",
+        "avatar_url": null,
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "namespace": "borzo",
+        "visibility_level": 0,
+        "path_with_namespace": "borzo/server-tools",
+        "default_branch": "master",
+        "ci_config_path": "",
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "http_url": "https://gitlab.borzo.com/borzo/server-tools.git"
+    },
+    "commits": [
+        {
+            "id": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "message": "TASK-3719 Add Mexico instances in TF\n",
+            "timestamp": "2021-02-11T16:25:15+03:00",
+            "url": "https://gitlab.borzo.com/borzo/server-tools/commit/529a3797f8b188c1014c678e86606eead99f1d4e",
+            "author": {
+                "name": "Dmitry Dubovcev",
+                "email": "dubovcev@borzo.com"
+            },
+            "added": [
+                "terraform/aws/mexico.tf"
+            ],
+            "modified": [
+                "terraform/aws/ohio.tf",
+                "terraform/aws/terraform.tfstate"
+            ],
+            "removed": []
+        },
+        {
+            "id": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "message": "Merge branch 'alel_inf3719_move_mx_to_pogo' into 'master'\n\nTASK-3719 Add Mexico instances in TF\n\nSee merge request borzo/server-tools!972",
+            "timestamp": "2021-02-11T16:25:15+03:00",
+            "url": "https://gitlab.borzo.com/borzo/server-tools/commit/529a3797f8b188c1014c678e86606eead99f1d4e",
+            "author": {
+                "name": "Dmitry Dubovcev",
+                "email": "dubovcev@borzo.com"
+            },
+            "added": [
+                "terraform/aws/mexico.tf"
+            ],
+            "modified": [
+                "terraform/aws/ohio.tf",
+                "terraform/aws/terraform.tfstate"
+            ],
+            "removed": []
+        }
+    ],
+    "total_commits_count": 2,
+    "push_options": {},
+    "repository": {
+        "name": "server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "description": null,
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "visibility_level": 0
+    }
+}

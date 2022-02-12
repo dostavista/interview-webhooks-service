@@ -1,0 +1,78 @@
+{
+    "object_kind": "push",
+    "event_name": "push",
+    "before": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "after": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "ref": "refs/heads/master",
+    "checkout_sha": "529a3797f8b188c1014c678e86606eead99f1d4e",
+    "message": null,
+    "user_id": 170,
+    "user_name": "Dmitry Dubovcev",
+    "user_username": "rg",
+    "user_email": "",
+    "user_avatar": "https://secure.gravatar.com/avatar/6e39c982209d42065281b4a4e5d1e17c?s=80&d=identicon",
+    "project_id": 14,
+    "project": {
+        "id": 12345,
+        "name": "server-tools",
+        "description": null,
+        "web_url": "https://gitlab.borzo.com/borzo/server-tools",
+        "avatar_url": null,
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "namespace": "borzo",
+        "visibility_level": 0,
+        "path_with_namespace": "borzo/server-tools",
+        "default_branch": "master",
+        "ci_config_path": "",
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "http_url": "https://gitlab.borzo.com/borzo/server-tools.git"
+    },
+    "commits": [
+        {
+            "id": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "message": "Revert \"Update README.md\"\n\nThis reverts commit 529a3797f8b188c1014c678e86606eead99f1d4e",
+            "title": "Revert \"Update README.md\"",
+            "timestamp": "2021-09-17T15:53:22+00:00",
+            "url": "https://gitlab.borzo.com/borzo/server-tools/-/commit/529a3797f8b188c1014c678e86606eead99f1d4e",
+            "author": {
+                "name": "Dmitry Dubovcev",
+                "email": "dubovcev@borzo.com"
+            },
+            "added": [],
+            "modified": [
+                "README.md"
+            ],
+            "removed": []
+        },
+        {
+            "id": "529a3797f8b188c1014c678e86606eead99f1d4e",
+            "message": "Merge branch 'revert-bc18b61a' into 'master'\n\nRevert \"Update README.md\"\n\nSee merge request borzo/server-tools!1332",
+            "title": "Merge branch 'revert-bc18b61a' into 'master'",
+            "timestamp": "2021-09-17T15:54:31+00:00",
+            "url": "https://gitlab.borzo.com/borzo/server-tools/-/commit/529a3797f8b188c1014c678e86606eead99f1d4e",
+            "author": {
+                "name": "Dmitry Dubovcev",
+                "email": "dubovcev@borzo.com"
+            },
+            "added": [],
+            "modified": [
+                "README.md"
+            ],
+            "removed": []
+        }
+    ],
+    "total_commits_count": 2,
+    "push_options": {},
+    "repository": {
+        "name": "server-tools",
+        "url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "description": null,
+        "homepage": "https://gitlab.borzo.com/borzo/server-tools",
+        "git_http_url": "https://gitlab.borzo.com/borzo/server-tools.git",
+        "git_ssh_url": "git@gitlab.borzo.com:borzo/server-tools.git",
+        "visibility_level": 0
+    }
+}
